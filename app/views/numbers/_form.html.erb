@@ -1,0 +1,11 @@
+<%= form_with() do |form| %>
+
+  <div class="field">
+    <%= form.label "Specify unique number to request" %>
+    <%= form.text_field :value %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "Get Number" %>
+  </div>
+<% end %>
